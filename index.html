@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Automation Portal</title>
+  <link rel="stylesheet" crossorigin href="./assets/portal-sZ8COUml.css">
+</head>
+<body>
+<header class="portal-bar"><div class="portal-bar-inner">
+  <a class="portal-home" href="./">Automation Portal</a>
+  <details class="portal-switch">
+    <summary aria-label="Product: All Products">All Products</summary>
+    <ul>
+      <li><a href="./" aria-current="page">All Products</a></li>
+      <li><a href="./respay-inspector/changelog/">ResPay Inspector</a></li>
+    </ul>
+  </details>
+</div></header>
+<main class="portal">
+  <h1>Automation Portal</h1>
+  <p class="portal-lede">Everything the Guesty Automation team ships: how each Product is used, what changed, and how to install and use it.</p>
+  <p class="portal-count">1 Product</p>
+  <section class="portal-card portal-directory">
+    <table>
+      <caption class="visually-hidden">Products and their Sections</caption>
+      <thead><tr><th scope="col">Product</th><th scope="col">Usage</th><th scope="col">Changelog</th><th scope="col">Guides</th></tr></thead>
+      <tbody>
+        <!-- One row per Product, linking to its Sections in <product>/<section>/. The name opens its Changelog. -->
+        <tr>
+          <th scope="row"><a class="portal-product" href="respay-inspector/changelog/">ResPay Inspector</a><span class="portal-note">Chrome extension for inspecting reservation payments.</span></th>
+          <td><a class="portal-section" href="respay-inspector/usage/">Usage<svg class="portal-lock" viewBox="0 0 12 12" aria-hidden="true"><rect x="2.5" y="5.5" width="7" height="5" rx="1" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M4 5.5V4a2 2 0 0 1 4 0v1.5" fill="none" stroke="currentColor" stroke-width="1.2"/></svg><span class="visually-hidden"> (needs the Portal Password)</span></a><span class="portal-note">Needs the Portal Password</span></td>
+          <td><a class="portal-section" href="respay-inspector/changelog/">Changelog</a><span class="portal-note">Coming soon</span></td>
+          <td><a class="portal-section" href="respay-inspector/guides/">Guides</a><span class="portal-note">Coming soon</span></td>
+        </tr>
+        <tr class="portal-next"><td colspan="4">Each new Product adds one row here, with the same three Sections.</td></tr>
+      </tbody>
+    </table>
+  </section>
+</main>
+</body>
+</html>
